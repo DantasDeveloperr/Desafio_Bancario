@@ -30,6 +30,6 @@ Mensagens de erro claras para operações inválidas
 
 Tecnologias
 
-Linguagem: Python 3
+Linguagem: Python
 
 Interface: Terminal/Console
