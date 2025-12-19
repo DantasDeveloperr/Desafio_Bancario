@@ -1,35 +1,58 @@
-Banco Simples em Python 🏦
+# 🏦 Banco Simples em Python
 
-Este é um sistema bancário simples desenvolvido em Python, que simula operações básicas de conta corrente. Ele permite que o usuário realize depósitos, saques e visualize o extrato, tudo via terminal.
+Este projeto é um **sistema bancário simples desenvolvido em Python**, que simula operações básicas de uma conta corrente.  
+A aplicação funciona via **terminal/console** e permite que o usuário realize depósitos, saques e visualize o extrato de forma interativa.
 
-Funcionalidades
+---
 
-Depósito: Permite adicionar valores positivos à conta.
+## 🚀 Funcionalidades
 
-Saque: Permite retirar valores da conta respeitando:
+- **💰 Depósito**
+  - Permite adicionar valores **positivos** à conta.
 
-Saldo disponível
+- **💸 Saque**
+  - Permite retirar valores respeitando as seguintes regras:
+    - Saldo disponível
+    - Limite máximo por saque: **R$ 5.000,00**
+    - Limite máximo de **5 saques por dia**
 
-Limite máximo por saque (R$ 5.000,00)
+- **📄 Extrato**
+  - Exibe todas as movimentações realizadas
+  - Mostra o **saldo atual** da conta
 
-Limite máximo de saques por dia (5 saques)
+- **🚪 Sair**
+  - Encerra o programa de forma segura
 
-Extrato: Exibe todas as movimentações realizadas e o saldo atual.
+---
 
-Sair: Encerra o programa de forma segura.
+## ⚠️ Regras e Limites
 
-Regras e Limites
+- 🔒 Limite de saque diário: **5 operações**
+- 💵 Limite por saque: **R$ 5.000,00**
+- ❌ Valores negativos **não são permitidos**
+- 🛑 Mensagens de erro claras para operações inválidas
 
-Limite de saque diário: 5 operações
+---
 
-Limite por saque: R$ 5.000,00
+## 🛠️ Tecnologias Utilizadas
 
-Valores negativos não são permitidos
+- **Linguagem:** Python 🐍
+- **Interface:** Terminal / Console
 
-Mensagens de erro claras para operações inválidas
+---
 
-Tecnologias
+## ▶️ Como executar o projeto
 
-Linguagem: Python
+1. Certifique-se de ter o **Python 3** instalado na sua máquina  
+2. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   
+---
 
-Interface: Terminal/Console
+   ## 👤 Autor
+
+**Adriano Dantas & Professores da DIO**  
+Estudante de Análise e Desenvolvimento de Sistemas.
+
+---
